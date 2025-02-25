@@ -1,0 +1,57 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  text-align: center;
+}
+
+header input {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+/* <------card-css --->*/
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+/* <------Table-css --->*/
+table {
+  border: 2px solid black;
+}
+
+table th {
+  text-transform: uppercase;
+  border: 2px solid rgb(51, 38, 38);
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+tbody td {
+  border: 1px solid silver;
+  padding: 10px;
+}
+
+.card-container li {
+  list-style: none;
+}
+
+img {
+  max-width: 4rem;
+}
